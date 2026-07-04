@@ -1,3 +1,46 @@
+Mbuu CLI
+
+This is a Phase 3 CLI project template adapted to manage car dealerships, cars, users, and sales.
+
+Quickstart
+
+1. Activate your pipenv environment:
+
+```bash
+pipenv shell
+```
+
+2. Run migrations (alembic is configured to use `lib/db/alembic.ini`):
+
+```bash
+alembic -c lib/db/alembic.ini upgrade head
+```
+
+3. Seed the database:
+
+```bash
+python lib/db/seed.py
+```
+
+4. Run the CLI:
+
+```bash
+python lib/cli.py
+```
+
+Files of interest
+
+- `lib/db/models.py`: SQLAlchemy models and DB initialization.
+- `lib/db/seed.py`: Creates some initial dealerships, cars, and users.
+- `lib/cli.py`: Simple menu-driven CLI to interact with the data.
+- `lib/helpers.py`: Small input helper functions for the CLI.
+
+Notes
+
+- Database file `mbuu.db` will be created in the repository root when you run the CLI or seed script.
+- This project uses SQLite for simplicity. For production use, switch the URL in `lib/db/alembic.ini` and `lib/db/models.py`.
+
+
 # Phase 3 CLI Project Template
 
 ## Learning Goals
@@ -237,3 +280,47 @@ Happy coding!
 - [Setting up a respository - Atlassian](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
 - [Create a repo- GitHub Docs](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+Auto small update 01
+Auto small update 02
+Auto small update 03
+Auto small update 04
+Auto small update 05
+Auto small update 06
+Auto small update 07
+Auto small update 08
+Auto small update 09
+Auto small update 10
+Auto small update 11
+Auto small update 12
+Auto small update 13
+Auto small update 14
+Auto small update 15
+Auto small update 16
+Auto small update 17
+Auto small update 18
+Auto small update 19
+Auto small update 20
+Auto small update 21
+Auto small update 22
+Auto small update 23
+Auto small update 24
+Auto small update 25
+Auto small update 26
+Auto small update 27
+Auto small update 28
+Auto small update 29
+Auto small update 30
+Auto small update 31
+Auto small update 32
+Auto small update 33
+Auto small update 34
+Auto small update 35
+Auto small update 36
+Auto small update 37
+Auto small update 38
+Auto small update 39
+Auto small update 40
+Auto small update 41
+Auto small update 42
+Auto small update 43
+Auto small update 44
